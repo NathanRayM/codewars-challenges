@@ -7,7 +7,6 @@ function mergeStrings(first, second) {
   let overlap = 0;
 
   for (let i = 1; i <= first.length; i++) {
-    console.log(first[i]);
     let end = first.slice(first.length - i);
 
     let start = second.slice(0, i);
